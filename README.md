@@ -32,7 +32,7 @@ $ cd <project>
 # Create package.json
 $ npm init
 ... follow instructions
-# create dode-project with web/srv/db - services
+# Create dode-project with web/srv/db - services
 $ dode-compose init
 ```
 ### Step-2
@@ -59,9 +59,9 @@ $ dode-compose --help
 - dode-compose dev ps -> Error: stty: stdin isn't a terminal
 
 ## Thanks to
-- tutum.co > [Docker, AngularJS and Tutum](https://blog.tutum.co/2015/06/03/docker-angularjs-and-tutum-part-1/)
+- tutum > [Docker, AngularJS and Tutum](https://blog.tutum.co/2015/06/03/docker-angularjs-and-tutum-part-1/)
 - Amine Mouafik > [Efficient development workflow using Git submodules and Docker Compose](https://www.airpair.com/docker/posts/efficiant-development-workfow-using-git-submodules-and-docker-compose)
-- Ryan Ramage > [docker-build-run-push](https://github.com/ryanramage/docker-build-run-push.githttps://github.com/ryanramage/docker-build-run-push.git)
+- Ryan Ramage > [docker-build-run-push](https://github.com/ryanramage/docker-build-run-push.git)
 
 ## License
 MIT
