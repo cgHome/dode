@@ -1,0 +1,25 @@
+version: '2'
+
+services:
+    web:
+        build: ./web
+        image: ${WEB_NAME}:${WEB_VERSION}
+        restart: always
+        ports:
+            - 8080:8080
+        links:
+            - srv
+    srv:
+        build: ./srv
+        image: ${SRV_NAME}:${SRV_VERSION}
+        restart: always
+        links:
+            - db
+    db:
+        build: ./db 
+        image: ${DB_NAME}:${DB_VERSION}
+        restart: always
+        ports: 
+            - 27017:27017
+volumes:
+    data:

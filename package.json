@@ -1,0 +1,35 @@
+{
+  "name": "dode",
+  "version": "0.0.1",
+  "description": "Docker Development - toolkit",
+  "main": "lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "dode": "bin/dode.js",
+    "dode-compose": "bin/dode-compose.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgHome/dode.git"
+  },
+  "keywords": [
+    "dode",
+    "docker",
+    "development",
+    "toolkit"
+  ],
+  "author": "Chris.Gross <cgHome@gmx.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cgHome/dode/issues"
+  },
+  "homepage": "https://github.com/cgHome/dode#readme",
+  "dependencies": {
+    "colour": "^0.7.1",
+    "commander": "^2.9.0",
+    "glob": "^7.0.3",
+    "shelljs": "^0.7.0"    
+  }
+}

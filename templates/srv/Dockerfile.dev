@@ -1,0 +1,5 @@
+FROM <baseImage>
+
+MAINTAINER <name>
+
+CMD <cmd>
